@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>App</title>
+</head>
+
+<body>
+    <h1 class="text-center p-3">Buscador de Autos</h1>
+    <div class="container">
+        <form id="buscador">
+            <div class="row p-3">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <label for="marca">Marca</label>
+                    <select class="custom-select" id="marca">
+                        <option selected class="">Seleccione</option>
+                        <option value="Audi">Audi</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Mercedes Benz">Mercedes Benz</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Dodge">Dodge</option>
+                      </select>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <label for="year">Año</label>
+                    <select class="custom-select" id="year">
+                        <option selected >Seleccione</option>
+                      </select>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <label for="minimo">Precio minimo</label>
+                    <select class="custom-select" id="minimo">
+                        <option selected>Seleccione</option>
+                        <option value="20000">20,000</option>
+                        <option value="30000">30,000</option>
+                        <option value="40000">40,000</option>
+                        <option value="50000">50,000</option>
+                        <option value="60000">60,000</option>
+                        <option value="70000">70,000</option>
+                        <option value="80000">80,000</option>
+                        <option value="90000">90,000</option>
+                      </select>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                    <label for="maximo">Precio Maximo</label>
+                    <select class="custom-select" id="maximo">
+                        <option selected>Seleccione</option>
+                        <option value="20000">20,000</option>
+                        <option value="30000">30,000</option>
+                        <option value="40000">40,000</option>
+                        <option value="50000">50,000</option>
+                        <option value="60000">60,000</option>
+                        <option value="70000">70,000</option>
+                        <option value="80000">80,000</option>
+                        <option value="90000">90,000</option>
+                      </select>
+                </div>
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <label for="puertas">Puertas</label>
+                            <select class="custom-select" id="puertas">
+                            <option selected>Seleccione</option>
+                            <option value="2">2 puertas</option>
+                            <option value="4">4 puertas</option>
+                          </select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <label for="transimision">Transmisión</label>
+                            <select class="custom-select" id="transmision">
+                            <option selected>Seleccione</option>
+                            <option value="Automatica">Automatica</option>
+                            <option value="Manual">Manual</option>
+                          </select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <label for="color">Color</label>
+                            <select class="custom-select" id="color">
+                            <option selected>Seleccione</option>
+                            <option value="Rojo">Rojo</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Azul">Azul</option>
+                          </select>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
+                            <label for="sexo">Sexo del cliente:</label>
+                            <select class="custom-select" id="sexo">
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <h1 class="text-center">Resultados</h1>
+        <div class="text-center" id="resultado">
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="js/bd.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html> 

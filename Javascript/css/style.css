@@ -1,0 +1,33 @@
+html {
+    font-size: 100%;
+}
+body{
+    background: #f4f4f4;
+}
+h1 {
+    font-size: 3rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: #0f3057;
+}
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 2rem;
+
+}
+.container {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.custom-select{
+    /* wrapper style */
+    position: relative;
+    display:block;
+    max-width: 400px;
+    min-width: 10px;
+    margin:0 auto;
+}
