@@ -2,7 +2,7 @@ html {
     font-size: 100%;
 }
 body{
-    background: #f4f4f4;
+    background: #e7e7de;
 }
 h1 {
     font-size: 3rem;
@@ -10,18 +10,14 @@ h1 {
     margin: 0;
     color: #0f3057;
 }
-form {
-    max-width: 1000px;
-    margin: 0 auto;
-    background: white;
-    margin-bottom: 2rem;
 
-}
 .container {
-    background-color: white;
+    background-color:white;
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 5px;
+    margin-bottom: 2rem;
+    
 }
 .custom-select{
     /* wrapper style */
@@ -30,4 +26,44 @@ form {
     max-width: 400px;
     min-width: 10px;
     margin:0 auto;
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado p {
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #00587a;
+}
+#resultado p span {
+    font-weight: bold;
+}
+#resultado p:last-of-type{
+    border: none;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+}
+.error {
+    background-color: #ea2c62;
+    border-radius: 5px;
+    
+}
+.sitio-web  {
+    color: white;
+    display: block;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-decoration: none;
+}
+.sitio-web:hover {
+    color: white;
 }
